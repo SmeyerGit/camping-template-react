@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header';
+import ImageSlider from './components/image_slider';
+import BookingSection from './components/booking_section';
+import TextSection from './components/text_section';
+import ReferencesSection from './components/gallery';
+import Footer from './components/footer';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <ImageSlider />
+      <BookingSection />
+      <TextSection />
+      <ReferencesSection />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
