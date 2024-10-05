@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
 
       {/* Bottom section */}
       <div className="border-t border-green-500 mt-8 pt-4 text-center">
-        <img src="" alt="Zur Erleninsel" className="mx-auto" />
+        <img src="logo192.png" alt="Zur Erleninsel" className="mx-auto" />
       </div>
     </footer>
   );
