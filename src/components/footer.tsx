@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import logo from 'C:/Users/nilss/Documents/Websites/camping-template-react/src/images/logo1.png';
+
 
 const Footer: React.FC = () => {
   return (
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
 
       {/* Bottom section */}
       <div className="border-t border-green-500 mt-8 pt-4 text-center">
-        <img src={logo} alt="Zur Erleninsel" className="mx-auto" />
+        <img src="" alt="Zur Erleninsel" className="mx-auto" />
       </div>
     </footer>
   );
