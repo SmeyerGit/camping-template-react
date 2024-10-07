@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  'https://via.placeholder.com/1920x1080?text=Camping+1',
-  'https://via.placeholder.com/1920x1080?text=Camping+2',
-  'https://via.placeholder.com/1920x1080?text=Camping+3',
+  'picture.jpg',
+  'pic2.jpg',
+  'pic3.jpg',
 ];
 
 const ImageSlider: React.FC = () => {
