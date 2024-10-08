@@ -18,7 +18,7 @@ const addDays = (date: Date, days: number): Date => {
 const BookingSection: React.FC = () => {
   const [arrivalDate, setArrivalDate] = useState<string>('');
   const [departureDate, setDepartureDate] = useState<string>('');
-  const [currentDate, setCurrentDate] = useState<string>('');
+  
 
   // Setze das Ankunfts- und Abreisedatum bei der Initialisierung
   useEffect(() => {
@@ -26,7 +26,7 @@ const BookingSection: React.FC = () => {
     const formattedToday = formatDate(today);
     const departure = formatDate(addDays(today, 7)); // Abreisedatum 7 Tage später
 
-    setCurrentDate(formattedToday);
+   
     setArrivalDate(formattedToday); // Setze das Ankunftsdatum auf heute
     setDepartureDate(departure); // Setze das Abreisedatum auf 7 Tage später
   }, []);
