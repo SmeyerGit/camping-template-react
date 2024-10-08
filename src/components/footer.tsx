@@ -5,7 +5,7 @@ import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-green-600 text-white py-10">
+    <footer className="bg-green-600 text-white pt-10 pb-4">
       <div className="container mx-auto grid md:grid-cols-3 gap-8 px-4">
         {/* Left Side */}
         <div>

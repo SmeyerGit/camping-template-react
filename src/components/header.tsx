@@ -77,16 +77,19 @@ const Header: React.FC = () => {
       >
         <ul className="flex flex-col space-y-2 p-4">
           <li>
-            <a href="#home" className="hover:text-green-500 font-bold text-2xl block">Home</a>
+            <a href="/" className="hover:text-green-500 font-bold text-2xl block">Erleninsel</a>
           </li>
           <li>
-            <a href="#about" className="hover:text-green-500 font-bold text-2xl block">Camping</a>
+            <a href="#about" className="hover:text-green-500 font-bold text-2xl block">Freizeit</a>
           </li>
           <li>
-            <a href="#book" className="hover:text-green-500 font-bold text-2xl block">Buchen</a>
+            <a href="/preise" className="hover:text-green-500 font-bold text-2xl block">Preise</a>
           </li>
           <li>
-            <a href="#references" className="hover:text-green-500 font-bold text-2xl block">Referenzen</a>
+            <a href="#references" className="hover:text-green-500 font-bold text-2xl block">Impressionen</a>
+          </li>
+          <li>
+            <a href="#references" className="hover:text-green-500 font-bold text-2xl block">Kontakt</a>
           </li>
         </ul>
       </nav>

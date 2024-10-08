@@ -1,12 +1,13 @@
 // PricesPage.tsx
 import React from 'react';
+import ReferenceSection from './references';
 
 const PricesPage: React.FC = () => {
   return (
-    <div className="bg-gray-50 py-12 ">
+    <div className="bg-white py-12 ">
       <div className="max-w-7xl mx-auto px-4 md:px-0">
         {/* Header */}
-        <h1 className="text-green-600 text-2xl font-semibold mb-4">SOMMERPREISE ZELTPLÄTZE</h1>
+        <h1 className="text-green-600 text-2xl font-semibold mb-4">SOMMERPREISE ZELTWIESE</h1>
         <p className="text-gray-700 mb-8">Leistung zu fairen Preisen</p>
 
         {/* Preise Tabelle */}
@@ -72,6 +73,7 @@ const PricesPage: React.FC = () => {
           </button>
         </div>
       </div>
+      <ReferenceSection/>
     </div>
   );
 };
