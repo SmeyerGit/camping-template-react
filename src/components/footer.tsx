@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
       <div className="container mx-auto grid md:grid-cols-3 gap-8 px-4">
         {/* Left Side */}
         <div>
-          <h3 className="font-bold text-lg mb-4">Camping Grubhof</h3>
-          <p>Familie Robert Stainer</p>
+          <h3 className="font-bold text-lg mb-4">Camping</h3>
+          <p>Familie Pimmel Berger</p>
           <p>Grubhof 39</p>
-          <p>5092 St. Martin bei Lofer | Österreich</p>
+          <p>5092 Irgendwo | Deutschland</p>
           <p className="mt-4">
             T: <a href="tel:+43658882370" className="underline">+43 (0) 6588 55555-0</a>
           </p>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <FontAwesomeIcon icon={faYoutube} size="2x" />
             </a>
           </div>
-          <p>Besuchen Sie unsere kleine Erleninsel</p>
+          <p>Besuchen Sie unseren kleinen Campingplatz</p>
           <a
             href="#"
             className="inline-block bg-white text-green-600 mt-4 px-4 py-2 rounded hover:bg-gray-200"
@@ -59,7 +59,8 @@ const Footer: React.FC = () => {
 
       {/* Bottom section */}
       <div className="border-t border-green-500 mt-8 pt-4 text-center">
-        <img src="logo192.png" alt="Zur Erleninsel" className="mx-auto" />
+        <p>Copyright Nils Schmeier</p>
+        <img src="" alt="Logo" className="mx-auto" />
       </div>
     </footer>
   );
