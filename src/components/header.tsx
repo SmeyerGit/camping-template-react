@@ -40,10 +40,11 @@ const Header: React.FC = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:text-green-500 font-bold text-2xl">Home</a>
-          <a href="#about" className="hover:text-green-500 font-bold text-2xl">Camping</a>
-          <a href="#book" className="hover:text-green-500 font-bold text-2xl">Buchen</a>
-          <a href="#references" className="hover:text-green-500 font-bold text-2xl">Referenzen</a>
+          <a href="/" className="hover:text-green-500 font-bold text-2xl">Erleninsel</a>
+          <a href="#about" className="hover:text-green-500 font-bold text-2xl">Freizeit</a>
+          <a href="/preise" className="hover:text-green-500 font-bold text-2xl">Preise</a>
+          <a href="#references" className="hover:text-green-500 font-bold text-2xl">Impressionen</a>
+          <a href="#" className="hover:text-green-500 font-bold text-2xl">Kontakt</a>
         </nav>
 
         {/* Hamburger Button für Mobile */}

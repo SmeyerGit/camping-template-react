@@ -40,11 +40,11 @@ const BookingSection: React.FC = () => {
   };
 
   return (
-    <section id="book" className="py-12 bg-green-500 text-center">
+    <section id="book" className="py-12 bg-green-600 text-center">
       <h2 className="text-3xl text-gray-100 font-bold mb-6">Buchen Sie Ihren Aufenthalt</h2>
       <div className="space-y-4 md:flex md:space-y-0 md:space-x-4 justify-center">
         <div>
-          <label className="text-lg text-gray-100 font-bold px-2" htmlFor="arrival">Ankunftsdatum:</label>
+          <label className="text-lg text-gray-100 font-bold px-2" htmlFor="arrival">Ankunft:</label>
           <input
             type="date"
             id="arrival"
@@ -59,7 +59,7 @@ const BookingSection: React.FC = () => {
           />
         </div>
         <div>
-          <label className="text-lg text-gray-100 font-bold px-2" htmlFor="departure">Abreisedatum:</label>
+          <label className="text-lg text-gray-100 font-bold px-2" htmlFor="departure">Abreise:</label>
           <input
             type="date"
             id="departure"
