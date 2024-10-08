@@ -17,7 +17,7 @@ const ImageSlider: React.FC = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative w-full" style={{ height: 'calc(100vh - 80px)' }}> {/* 80px entspricht der Header-Höhe */}
+    <div className="relative w-full" style={{ height: 'calc(100vh)' }}> {/* 80px entspricht der Header-Höhe */}
       <img
         src={images[currentIndex]}
         alt={`Slide ${currentIndex + 1}`}
