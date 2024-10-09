@@ -1,28 +1,18 @@
 import React from 'react';
-import Header from '../components/header';
-import ImageSlider from '../components/image_slider';
-import BookingSection from '../components/booking_section';
-import TextSection from '../components/text_section';
-import Gallery from '../components/gallery';
-import Footer from '../components/footer';
-import FAQ from '../components/faq';
-import ReferenceSection from '../components/references';
-import Text from '../components/text'
-import Banner from '../components/banner'
+import FullSizeGallery from '../components/full_size_gallery';
 
-
-
-const Impressionen: React.FC = () => {
+const ImpressionenPage: React.FC = () => {
   return (
-    <div className="bg-white py-12 ">
-      <div className="max-w-7xl mx-auto px-4 md:px-0">
-      <Text />
-      <FAQ/>
-      <Text/>
-      <ReferenceSection/>
-    </div>
+    <div>
+      {/* Banner / Titelbereich */}
+      <section className="relative py-12 bg-white text-black text-center flex items-center justify-center">
+        <h1 className="text-5xl font-bold">Impressionen</h1>
+      </section>
+
+      {/* Galerie */}
+      <FullSizeGallery />
     </div>
   );
 };
 
-export default Impressionen;
+export default ImpressionenPage;
