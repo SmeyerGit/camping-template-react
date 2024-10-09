@@ -8,9 +8,12 @@ import Footer from './components/footer';
 import FAQ from './components/faq';
 import ReferenceSection from './components/references';
 import Text from './components/text'
-import PricesPage from './components/price_page'
+import PricesPage from './pages/price_page'
+import Home from './pages/home'
+import Impressionen from './pages/impressions';
+import Kontakt from './pages/contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/home'
+
 
 
 const App: React.FC = () => {
@@ -23,6 +26,8 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/preise" element={<PricesPage />} /> {/* Preise-Seite */}
+          <Route path="/impressionen" element={<Impressionen />} /> {/* Preise-Seite */}
+          <Route path="/kontakt" element={<Kontakt />} /> {/* Preise-Seite */}
         </Routes>
         <Footer/>
       </div>

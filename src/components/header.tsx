@@ -41,10 +41,9 @@ const Header: React.FC = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
           <a href="/" className="hover:text-green-500 font-bold text-2xl">Erleninsel</a>
-          <a href="#about" className="hover:text-green-500 font-bold text-2xl">Freizeit</a>
           <a href="/preise" className="hover:text-green-500 font-bold text-2xl">Preise</a>
-          <a href="#references" className="hover:text-green-500 font-bold text-2xl">Impressionen</a>
-          <a href="#" className="hover:text-green-500 font-bold text-2xl">Kontakt</a>
+          <a href="/impressionen" className="hover:text-green-500 font-bold text-2xl">Impressionen</a>
+          <a href="/kontakt" className="hover:text-green-500 font-bold text-2xl">Kontakt</a>
         </nav>
 
         {/* Hamburger Button für Mobile */}
@@ -80,16 +79,13 @@ const Header: React.FC = () => {
             <a href="/" className="hover:text-green-500 font-bold text-2xl block">Erleninsel</a>
           </li>
           <li>
-            <a href="#about" className="hover:text-green-500 font-bold text-2xl block">Freizeit</a>
-          </li>
-          <li>
             <a href="/preise" className="hover:text-green-500 font-bold text-2xl block">Preise</a>
           </li>
           <li>
-            <a href="#references" className="hover:text-green-500 font-bold text-2xl block">Impressionen</a>
+            <a href="/impressionen" className="hover:text-green-500 font-bold text-2xl block">Impressionen</a>
           </li>
           <li>
-            <a href="#references" className="hover:text-green-500 font-bold text-2xl block">Kontakt</a>
+            <a href="/kontakt" className="hover:text-green-500 font-bold text-2xl block">Kontakt</a>
           </li>
         </ul>
       </nav>

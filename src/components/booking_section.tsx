@@ -40,8 +40,8 @@ const BookingSection: React.FC = () => {
   };
 
   return (
-    <section id="book" className="py-12 bg-green-600 text-center">
-      <h2 className="text-3xl text-gray-100 font-bold mb-6">Buchen Sie Ihren Aufenthalt</h2>
+    <section id="book" className="py-12 bg-green-600 text-center px-4 ">
+      <h2 className="text-3xl text-gray-100 font-bold mb-6">Planen Sie Ihren Aufenthalt</h2>
       <div className="space-y-4 md:flex md:space-y-0 md:space-x-4 justify-center">
         <div>
           <label className="text-lg text-gray-100 font-bold px-2" htmlFor="arrival">Ankunft:</label>
@@ -68,12 +68,14 @@ const BookingSection: React.FC = () => {
             className="p-2  bg-green-300 w-full md:w-auto"
           />
         </div>
+        <a href='/kontakt'>
         <button
           onClick={handleBooking}
+          
           className="bg-white text-green-800 font-bold py-2 px-6 rounded-lg"
         >
-          Jetzt buchen
-        </button>
+          Anfragen
+        </button></a>
       </div>
     </section>
   );

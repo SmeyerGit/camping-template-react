@@ -3,7 +3,7 @@ import React from 'react';
 const ReferencesSection: React.FC = () => {
   return (
     <section id="references" className="py-12 bg-gray-50">
-      <div className="container mx-auto text-center">
+      <div className="container max-w-7xl mx-auto text-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="relative">
             <img src="https://via.placeholder.com/300" alt="Reference 1" className="w-full h-64 object-cover"/>
