@@ -11,16 +11,18 @@ import Text from '../components/text'
 
 
 
-const Home: React.FC = () => {
+const Anfahrt: React.FC = () => {
   return (
-    <div>
-      <Text />
-      <Gallery />
-      <FAQ/>
-      
-      <ReferenceSection/>
+    <div className="bg-white py-12 ">
+      <div className="max-w-7xl mx-auto px-4 md:px-0">
+      <img
+                src="erle18.jpg"
+                alt="Karte"
+                className="w-full h-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+              />
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default Anfahrt;

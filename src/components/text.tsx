@@ -10,19 +10,18 @@ const ComfortSection: React.FC = () => {
             CAMPING IM ERHOLSAMEN SPREEWALD
           </h2>
           <p className="text-gray-700 mb-4">
-            Ein umfangreiches Zusatz- und Freizeitangebot am Campingplatz Grubhof in Salzburg mit einer <span className="text-green-600 font-semibold">modernen Infrastruktur auf höchstem Niveau</span> garantiert einen unvergesslichen Campingurlaub in Österreich. Vom Wellness- und Spa-Angebot in der Wellness-Alm, über ein uriges und gemütliches <span className="text-green-600 font-semibold">Wirtshaus</span> bis hin zum Shop, dem Café Campo und dem Freizeit- und Aktivangebot sowie der gratis Salzburger Saalachtal Card mit vielen Inklusivleistungen im Juli und August – das Angebot ist umfassend – nicht ohne Grund zählt Camping Grubhof zu den beliebtesten Campingplätzen in Österreich und Europa. Hier können Sie einerseits die Natur und die Ruhe genießen, haben aber auch jederzeit die Möglichkeit zur Aktivität und einem echten Ferienerlebnis.
-          </p>
+            Im Streusiedlungsgebiet von Burg befindet sich eine ca. 20.000 m² große dreieckige Insel in ruhiger und uriger Lage, umrahmt von alten Erlen, an einem Nebenarm der Spree. Der Zeltplatz wird im Osten von den Fließen "Ostgraben" im Süden und Westen vom "Krummes Fließ" und von Norden durch einen Graben, der beide Fließe miteinander verbindet begrenzt. Die Insel ist für Besucher über eine kleine Brücke erreichbar. Für Wasserwanderer steht eine Anlegestelle zur Verfügung. Hier können Boote ein- und ausgesetzt als auch gemietet werden. Wer nicht selber paddeln möchte, kann sich auch mit dem Spreewaldkahn staken lassen. </p>
         </div>
         <div>
           <h2 className="text-green-600 text-xl font-semibold mb-4">
-            4 Sterne plus Campingplatz
+            In der Nähe
           </h2>
           <p className="text-gray-700 mb-4">
-            Qualitäts- und Komfortverbesserungen sind am Grubhof ein laufender Prozess. Mit unserer Teilnahme an <span className="text-green-600 font-semibold">ECOCAMPING</span> verpflichten wir uns dazu, Umwelt- und Naturschutz, Sicherheit und Qualität auf unserem Platz stetig zu verbessern.
+          In unmittelbarer Nähe befindet sich ein Radweg, der sich auch zum Skaten eignet. In ca. 3.5 km Entfernung befindet sich die Spreewaldtherme, einem Solebad, das aus einer Tiefe von 1350 m entspringt. Vor der Insel stehen Ihnen kostenlose Parkplätze zur Verfügung. 
           </p>
           <p className="text-gray-700 mb-4">
-            Wir sind ein ausgezeichneter ADAC-Campingplatz. Doch nicht nur der ADAC stellt uns mit 4,5 Sternen ein sehr gutes Zeugnis aus, auch die Kundenbewertungen fallen hervorragend aus – lesen Sie dazu die Bewertungen unserer Gäste.
-          </p>
+          Auf Grund bescheidener Kapazitäten empfehlen wir Ihnen Zelltstellplätze und Bootsanmietung vorher zu reservieren.
+          Wir würden uns freuen Sie herzlichst begrüßen zu können.          </p>
           <button className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition">
             GÄSTESTIMMEN &rsaquo;
           </button>

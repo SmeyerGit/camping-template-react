@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Gallery: React.FC = () => {
   return (
     <section id="gallery" className="py-12 bg-gray-50">

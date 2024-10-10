@@ -9,8 +9,8 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   { question: 'Ab wann steht der Stellplatz am Anreisetag zur Verfügung?', answer: '' },
   { question: 'Bis wann steht der Stellplatz am Abreisetag zur Verfügung?', answer: '' },
-  { question: 'Sind Hunde am Campingplatz erlaubt?', answer: '' },
-  { question: 'Ist der Campingplatz auch im Winter geöffnet?', answer: '' },
+  { question: 'Sind Hunde am Campingplatz erlaubt?', answer: 'Bitte haben Sie Verständniss, dass wir keine Hunde aufnehmen können.' },
+  { question: 'Ist der Campingplatz auch im Winter geöffnet?', answer: 'Nein, die Saison endet am 26.09.2024' },
   { question: 'Ist der Campingplatz für Familien geeignet?', answer: '' },
 ];
 
