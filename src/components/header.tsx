@@ -29,9 +29,9 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header
+    <header 
   className={`fixed top-0 w-full z-10 transition-all duration-300 ease-in-out ${
-    isScrolled ? 'bg-white text-green-600 shadow-lg' : 'bg-gray-800 bg-opacity-25 text-white'
+    isScrolled ? 'bg-white text-[#155709] shadow-lg' : 'bg-gray-800 bg-opacity-25 text-white'
   }`}
 >
   <div className="container mx-auto flex justify-between items-center p-6">
@@ -42,12 +42,12 @@ const Header: React.FC = () => {
 
     {/* Desktop Navigation */}
     <nav className="hidden md:flex space-x-6">
-      <a href="/camping" className="hover:text-green-500 font-bold text-2xl">Camping</a>
-      <a href="/freizeit" className="hover:text-green-500 font-bold text-2xl">Freizeit</a>
-      <a href="/preise" className="hover:text-green-500 font-bold text-2xl">Preise</a>
-      <a href="/impressionen" className="hover:text-green-500 font-bold text-2xl">Impressionen</a>
-      <a href="/kontakt" className="hover:text-green-500 font-bold text-2xl">Kontakt</a>
-      <a href="/anfahrt" className="hover:text-green-500 font-bold text-2xl">Anfahrt</a>
+      <a href="/camping" className="hover:text-[#44a111] font-bold text-2xl">Camping</a>
+      <a href="/freizeit" className="hover:text-[#44a111] font-bold text-2xl">Freizeit</a>
+      <a href="/preise" className="hover:text-[#44a111] font-bold text-2xl">Preise</a>
+      <a href="/impressionen" className="hover:text-[#44a111] font-bold text-2xl">Impressionen</a>
+      <a href="/kontakt" className="hover:text-[#44a111] font-bold text-2xl">Kontakt</a>
+      <a href="/anfahrt" className="hover:text-[#44a111] font-bold text-2xl">Anfahrt</a>
     </nav>
 
     {/* Hamburger Button für Mobile */}
@@ -76,26 +76,26 @@ const Header: React.FC = () => {
   <nav
     className={`md:hidden transition-all duration-300 ease-in-out ${
       isOpen ? 'block' : 'hidden'
-    } bg-green-600 bg-opacity-90 text-white`}
+    } bg-white bg-opacity-80 text-[#155709]`}
   >
     <ul className="flex flex-col space-y-2 p-4">
       <li>
-        <a href="/camping" className="hover:text-green-500 font-bold text-2xl block">Camping</a>
+        <a href="/camping" className="hover:text-[#44a111] font-bold text-2xl block">Camping</a>
       </li>
       <li>
-        <a href="/freizeit" className="hover:text-green-500 font-bold text-2xl block">Freizeit</a>
+        <a href="/freizeit" className="hover:text-[#44a111] font-bold text-2xl block">Freizeit</a>
       </li>
       <li>
-        <a href="/preise" className="hover:text-green-500 font-bold text-2xl block">Preise</a>
+        <a href="/preise" className="hover:text-[#44a111] font-bold text-2xl block">Preise</a>
       </li>
       <li>
-        <a href="/impressionen" className="hover:text-green-500 font-bold text-2xl block">Impressionen</a>
+        <a href="/impressionen" className="hover:text-[#44a111] font-bold text-2xl block">Impressionen</a>
       </li>
       <li>
-        <a href="/kontakt" className="hover:text-green-500 font-bold text-2xl block">Kontakt</a>
+        <a href="/kontakt" className="hover:text-[#44a111] font-bold text-2xl block">Kontakt</a>
       </li>
       <li>
-        <a href="/anfahrt" className="hover:text-green-500 font-bold text-2xl block">Anfahrt</a>
+        <a href="/anfahrt" className="hover:text-[#44a111] font-bold text-2xl block">Anfahrt</a>
       </li>
     </ul>
   </nav>

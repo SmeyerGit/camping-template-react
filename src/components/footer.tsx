@@ -5,7 +5,7 @@ import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-green-600 text-white pt-10 pb-4">
+    <footer className="bg-[#155709] text-white pt-10 pb-4">
       <div className="container mx-auto grid md:grid-cols-3 gap-8 px-4">
         {/* Left Side */}
         <div>
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           <p>Besuchen Sie unseren kleinen Campingplatz</p>
           <a
             href="#"
-            className="inline-block bg-white text-green-600 mt-4 px-4 py-2 rounded hover:bg-gray-200"
+            className="inline-block bg-white text-[#155709] mt-4 px-4 py-2 rounded hover:bg-gray-200"
           >
             Urlaub Planen
           </a>
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom section */}
-      <div className="border-t border-green-500 mt-8 pt-4 text-center">
+      <div className="border-t border-[#0a6a03] mt-8 pt-4 text-center">
         <p>Copyright Nils Schmeier</p>
         <img src="" alt="Logo" className="mx-auto" />
       </div>

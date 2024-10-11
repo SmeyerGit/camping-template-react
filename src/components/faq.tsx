@@ -23,13 +23,13 @@ const FAQ: React.FC = () => {
 
   return (
     <div className="max-w-4xl mx-auto py-12">
-      <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Häufig gestellte Fragen</h2>
+      <h2 className="text-3xl font-bold text-center text-[#155709] mb-8">Häufig gestellte Fragen</h2>
       <div className="space-y-4">
         {faqData.map((item, index) => (
           <div key={index} className="border-b border-gray-300">
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full text-left py-4 text-lg font-medium text-green-600 hover:text-green-800 focus:outline-none"
+              className="w-full text-left py-4 text-lg font-medium text-[#44a111] hover:text-[#155709] focus:outline-none"
             >
               {item.question}
             </button>

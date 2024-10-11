@@ -40,7 +40,7 @@ const BookingSection: React.FC = () => {
   };
 
   return (
-    <section id="book" className="py-12 bg-green-600 text-center px-4 ">
+    <section id="book" className="py-12 bg-[#0a6a03] text-center px-4 ">
       <h2 className="text-3xl text-gray-100 font-bold mb-6">Planen Sie Ihren Aufenthalt</h2>
       <div className="space-y-4 md:flex md:space-y-0 md:space-x-4 justify-center">
         <div>
@@ -55,7 +55,7 @@ const BookingSection: React.FC = () => {
               // Setze das Abreisedatum neu, wenn das Ankunftsdatum geändert wird
               setDepartureDate(formatDate(addDays(new Date(newArrivalDate), 7)));
             }}
-            className="p-2  bg-green-300 w-full md:w-auto"
+            className="p-2  bg-[#44a111] w-full md:w-auto"
           />
         </div>
         <div>
@@ -65,14 +65,14 @@ const BookingSection: React.FC = () => {
             id="departure"
             value={departureDate}
             onChange={(e) => setDepartureDate(e.target.value)}
-            className="p-2  bg-green-300 w-full md:w-auto"
+            className="p-2  bg-[#44a111] w-full md:w-auto"
           />
         </div>
         <a href='/kontakt'>
         <button
           onClick={handleBooking}
           
-          className="bg-white text-green-800 font-bold py-2 px-6 rounded-lg"
+          className="bg-white text-[#155709] font-bold py-2 px-6 rounded-lg"
         >
           Anfragen
         </button></a>
