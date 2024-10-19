@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="font-bold text-lg mb-4">Camping</h3>
           <p>Familie Pimmel Berger</p>
-          <p>Grubhof 39</p>
+          <p>Zur Erleninsel</p>
           <p>5092 Irgendwo | Deutschland</p>
           <p className="mt-4">
             T: <a href="tel:+43658882370" className="underline">+43 (0) 6588 55555-0</a>
