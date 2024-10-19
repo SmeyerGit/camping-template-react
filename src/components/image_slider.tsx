@@ -23,7 +23,7 @@ const ImageSlider: React.FC = () => {
 
   return (
     <div className="relative w-full" style={{ height: 'calc(100vh)' }}>
-      <div className="absolute inset-0 transition-opacity duration-500 ease-in-out" style={{ opacity: isAnimating ? 0.8 : 1 }}>
+      <div className="absolute inset-0 transition-opacity duration-500 ease-in-out" style={{ opacity: isAnimating ? 0.9 : 1 }}>
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
