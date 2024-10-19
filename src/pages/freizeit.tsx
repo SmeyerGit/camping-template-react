@@ -21,6 +21,16 @@ const activities = [
     description: 'Angeln ist die perfekte Freizeitaktivität, um die Ruhe der Natur zu genießen.',
     image: 'https://via.placeholder.com/800x400?text=Angeln',
   },
+  {
+    title: 'Wandern',
+    description: 'Angeln ist die perfekte Freizeitaktivität, um die Ruhe der Natur zu genießen.',
+    image: 'https://via.placeholder.com/800x400?text=Wandern',
+  },
+  {
+    title: 'Fahrrad',
+    description: 'Angeln ist die perfekte Freizeitaktivität, um die Ruhe der Natur zu genießen.',
+    image: 'https://via.placeholder.com/800x400?text=Fahrrad',
+  },
 ];
 
 const FreizeitPage: React.FC = () => {
@@ -32,7 +42,7 @@ const FreizeitPage: React.FC = () => {
       <main className="container mx-auto py-12">
         {activities.map((activity, index) => (
           <section key={index} className="mb-12">
-            <div className="flex flex-col md:flex-row items-center mb-6">
+            <div className="flex flex-col mx-4 md:flex-row items-center mb-6">
               {/* Bild */}
               <img
                 src={activity.image}
