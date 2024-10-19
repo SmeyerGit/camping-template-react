@@ -14,6 +14,7 @@ import Impressionen from './pages/impressions';
 import Kontakt from './pages/contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Anfahrt from './pages/anfahrt';
+import FreizeitPage from './pages/freizeit';
 
 
 
@@ -26,7 +27,7 @@ const App: React.FC = () => {
         <BookingSection />
         <Routes>
           <Route path="/" element={<Home />} />
-          
+          <Route path="/freizeit" element={<FreizeitPage />} />
           <Route path="/preise" element={<PricesPage />} /> {/* Preise-Seite */}
           <Route path="/impressionen" element={<Impressionen />} /> {/* Preise-Seite */}
           <Route path="/kontakt" element={<Kontakt />} /> {/* Preise-Seite */}

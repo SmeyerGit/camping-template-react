@@ -22,8 +22,8 @@ const ComfortSection: React.FC = () => {
           <p className="text-gray-700 mb-4">
           Auf Grund bescheidener Kapazitäten empfehlen wir Ihnen Zelltstellplätze und Bootsanmietung vorher zu reservieren.
           Wir würden uns freuen Sie herzlichst begrüßen zu können.          </p>
-          <button className="bg-[#44a111] text-white px-6 py-3 rounded-full hover:bg-green-700 transition">
-            GÄSTESTIMMEN &rsaquo;
+          <button className="bg-[#44a111] text-white px-6 py-3 rounded-full text-lg hover:bg-green-700 transition">
+            <a href='/freizeit'>Freizeit &rsaquo;</a>
           </button>
         </div>
       </div>
